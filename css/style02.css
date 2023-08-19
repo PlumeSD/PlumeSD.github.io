@@ -124,3 +124,49 @@ a:hover {
     margin-bottom: -50px;
     text-align: center
 }
+
+.article {
+    /*width: 700px;*/
+    /*height: 200px;*/
+    /*position: relative;*/
+    overflow: hidden;
+    font-size: 40px;
+}
+
+.article .flag {
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(60px);
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, .3);
+    position: absolute; /*绝对定位*/
+    height: 53px;
+    line-height: 20px;
+    text-align: center;
+    width: 400px;
+    /*background-color: #2d9afd;*/
+    color: #fff;
+
+}
+
+.article .flag-left {
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    left: -140px;
+    top: 30px;
+}
+
+.article .flag-right {
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    right: -18px;
+    top: 9px;
+}
+
