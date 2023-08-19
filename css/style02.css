@@ -139,7 +139,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(60px);
-    box-shadow: 0 0 30px 10px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, .6);
     position: absolute; /*绝对定位*/
     height: 53px;
     line-height: 20px;
