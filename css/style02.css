@@ -12,7 +12,8 @@ body {
 
 h1 {
     color: #1c68b3;
-    font-size: clamp(4rem, 10vw, 5rem);
+    /*font-size: clamp(4rem, 10vw, 5rem);*/
+    font-size: 4rem;
     font-family: 'Parisienne', cursive;
     font-weight: bold;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -144,10 +145,10 @@ a:hover {
     height: 53px;
     line-height: 20px;
     text-align: center;
+    text-shadow: -1px 1px 0 #3f3f3f, 1px 1px 0 #3f3f3f,1px -1px 0 #3f3f3f,-1px -1px 0 #3f3f3f;
     width: 400px;
     /*background-color: #2d9afd;*/
     color: #fff;
-
 }
 
 .article .flag-left {
